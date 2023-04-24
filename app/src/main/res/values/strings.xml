@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">SKriVE</string>
+    <string name="todo">TODO</string>
+    <string name="welcome_to_strive">WELCOME TO SKRIVE</string>
+
+    <string name="register_or_sign_in">Register</string>
+    <string name="keep_me_logged_in">Keep me logged in</string>
+    <string name="_9aa6a6">#9AA6A6</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">or</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="New">New to Skrive? Click below to register</string>
+    <string name="you_are_signed_in">WELCOME</string>
+    <string name="sign_out">sign out</string>
+    <string name="todo1">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="fp1">Forgot Your Password?</string>
+    <string name="fp2">Enter your email address and we\'ll send you a link to reset your password</string>
+    <string name="submit">Submit</string>
+    <string name="fp3">Back to Login</string>
+    <string name="apply_for_hostel_leave">Apply for Hostel Leave</string>
+    <string name="apply_for_academic_leave">Apply for Academic Leave</string>
+    <string name="past_leaves">Past Leaves</string>
+
+    <string name="hello_xyz">Hello XYZ</string>
+    <string name="profile">PROFILE</string>
+    <string name="name">Name :</string>
+    <string name="roll_no">Roll No :</string>
+    <string name="branch">Branch :</string>
+    <string name="semester">Semester :</string>
+    <string name="parent_s_contact">Parent\'s Contact :</string>
+    <string name="textview">TextView</string>
+    <string name="contact_no">Contact No :</string>
+    <string name="address">Address :</string>
+    <string name="em2">Email :</string>
+    <string name="calendar">Calendar</string>
+    <string name="ksm"> Indian Institute of Information Technology, Una \n(An Institute of National Importance) \nSaloh, Una[H.P.] - 177209 \nWebsite : www.iiitu.ac.in</string>
+    <string name="hostel_leave_form">HOSTEL LEAVE FORM</string>
+    <string name="date">Date :</string>
+    <string name="name_of_the_student">1. Name of the Student</string>
+    <string name="_2_roll_no">     2. Roll No</string>
+    <string name="_3_room_no_hostel_name">3. Room No/Hostel Name</string>
+    <string name="_4_purpose_of_leave">     4. Purpose of Leave</string>
+    <string name="_5_date_and_time">     5. Date and time of \n          Departure</string>
+    <string name="hint_date"><font size="15">Date</font></string>
+    <string name="hint_time"><font size="15">Time</font></string>
+    <string name="date_and_time_of_expected_arrival">     6. Date and Time of \n          Expected Arrival</string>
+    <string name="_7_no_of_days_of_leave_required">     7. No of Days of Leave \n         Required</string>
+    <string name="_8_contact">     8. Contact</string>
+    <string name="_9_address">     9. Address</string>
+    <string name="log_in_as_student">Log In as Student</string>
+    <string name="log_in_as_admin">Log In as Admin</string>
+    <string name="welcome_admin">Welcome, Admin</string>
+    <string name="hi_admin">Hi, Admin</string>
+    <string name="view_applications">View Applications</string>
+    <string name="approve">Approve</string>
+    <string name="deny">Deny</string>
+
+</resources>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.views.HostelLeave">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="102dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="96dp"
+            app:srcCompat="@drawable/una"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:layout_marginStart="102dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="@string/ksm"
+            android:textColor="@color/black"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="120dp">
+
+        <TextView
+            android:id="@+id/dateapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="310dp"
+            android:autofillHints=""
+            android:inputType="date"
+            tools:ignore="TextViewEdits" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="222dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="@string/hostel_leave_form"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/date"
+            android:layout_marginStart="270dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="449dp"
+        android:layout_marginTop="190dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="180dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/name_of_the_student"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/namest"
+            android:layout_width="230dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="20dp"
+
+            android:gravity="center"
+            android:text="@string/textview"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="184dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="63dp"
+            android:gravity="center_vertical"
+            android:text="@string/_2_roll_no"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/stroll"
+            android:layout_width="227dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="184dp"
+            android:layout_marginTop="63dp"
+
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="197dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="107dp"
+            android:gravity="center_vertical"
+            android:text="@string/_3_room_no_hostel_name"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rh"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="197dp"
+            android:gravity="center"
+            android:layout_marginTop="110dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="194dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="151dp"
+            android:gravity="center_vertical"
+            android:text="@string/_4_purpose_of_leave"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/purleave"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="194dp"
+            android:gravity="center"
+            android:layout_marginTop="151dp"
+            android:textSize="16sp"
+            android:autofillHints=""
+            android:inputType="text"
+            tools:ignore="TextViewEdits" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="198dp"
+            android:gravity="center_vertical"
+            android:text="@string/_5_date_and_time"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/datedep"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="149dp"
+            android:layout_marginTop="194dp"
+            android:autofillHints=""
+            android:gravity="center"
+
+            android:hint="@string/hint_date"
+            android:inputType="date"
+            android:textSize="16sp"
+            tools:ignore="TextViewEdits" />
+
+        <TextView
+            android:id="@+id/timedep"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="194dp"
+            android:gravity="center"
+            android:hint="@string/hint_time"
+            android:inputType="time"
+            android:textSize="16sp"
+            android:autofillHints=""
+            tools:ignore="TextViewEdits" />
+
+        <TextView
+            android:id="@+id/textView2k"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="250dp"
+            android:text="@string/date_and_time_of_expected_arrival"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/datearr"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="149dp"
+            android:layout_marginTop="246dp"
+            android:autofillHints=""
+            android:gravity="center"
+            android:hint="@string/hint_date"
+            android:inputType="date"
+            android:textSize="16sp"
+            tools:ignore="TextViewEdits" />
+
+        <TextView
+            android:id="@+id/timearr"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="246dp"
+            android:gravity="center"
+            android:hint="@string/hint_time"
+            android:inputType="time"
+            android:textSize="16sp"
+            android:autofillHints=""
+            tools:ignore="TextViewEdits" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="176dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="300dp"
+            android:text="@string/_7_no_of_days_of_leave_required"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/days"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:gravity="center"
+            android:layout_marginTop="297dp"
+            android:inputType="number"
+
+            android:textSize="16sp"
+            tools:ignore="TextViewEdits" />
+
+        <TextView
+            android:id="@+id/st1"
+            android:layout_width="147dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="350dp"
+            android:gravity="center_vertical"
+            android:text="@string/_8_contact"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/st"
+            android:layout_width="152dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="395dp"
+            android:gravity="center_vertical"
+            android:text="@string/_9_address"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/stcontact"
+            android:layout_width="235dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="350dp"
+            android:gravity="center"
+            android:text="TextView"
+
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/staddr"
+            android:layout_width="233dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="155dp"
+            android:gravity="center"
+            android:layout_marginTop="395dp"
+            android:text="TextView"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp">
+
+            <Button
+                android:id="@+id/approve"
+                android:layout_width="125dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/approve"
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/deny"
+                android:layout_width="125dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="230dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/deny"
+                android:textColor="@color/red"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+    </RadioGroup>
+
+
+</FrameLayout>

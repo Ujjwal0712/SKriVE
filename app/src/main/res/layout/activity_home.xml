@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:background="@drawable/gradient1">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="124dp"
+            android:layout_height="113dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/skrivelogof1"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/greet"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+            android:text="@string/textview"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/baseline_person_25"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="337dp"
+        android:layout_height="373dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="220dp"
+        app:cardCornerRadius="26dp">
+
+        <TextView
+            android:id="@+id/applyhostelleave"
+            android:layout_width="263dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn2"
+            android:gravity="center"
+            android:text="@string/apply_for_hostel_leave"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="288dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/btn2"
+            android:gravity="center"
+            android:text="@string/apply_for_academic_leave"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/viewstatus"
+            android:layout_width="266dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/btn2"
+            android:gravity="center"
+            android:text="View Application Status"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="266dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="630dp"
+        app:cardCornerRadius="26dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient1">
+
+            <ImageView
+                android:id="@+id/calendar"
+                android:layout_width="38dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="115dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/baseline_calendar_month_24"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="38dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="205dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/baseline_notifications_active_24"
+                tools:ignore="ContentDescription,HardcodedText" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="38dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/baseline_home_24"
+                tools:ignore="ContentDescription" />
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/btn2"
+        android:text="@string/sign_out">
+
+    </Button>
+
+</RelativeLayout>
+

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfinal"
+    tools:context="com.example.views.Createaccount">
+
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:layout_width="98dp"
+            android:layout_height="81dp"
+            android:layout_marginTop="80dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/skrivelogof1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/create_account"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
+            android:background="@drawable/btn"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="15dp"
+            android:textColorHint="#000000"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
+            android:background="@drawable/btn"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingStart="15dp"
+            android:textColorHint="#000000"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/confirmpassword"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
+            android:background="@drawable/btn"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:paddingStart="15dp"
+            android:textColorHint="#000000"
+            tools:ignore="RtlSymmetry" />
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btncolor"
+            android:text="@string/register_or_sign_in" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/loginstudent"
+            android:layout_width="163dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btncolor"
+            android:text="@string/log_in_as_student" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="12dp"
+            android:layout_marginTop="10dp"
+            android:background="#3fff" />
+
+        <Button
+            android:id="@+id/loginadmin"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btncolor"
+            android:text="@string/log_in_as_admin" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

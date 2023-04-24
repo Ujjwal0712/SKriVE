@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.views.AdminHome">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:background="@drawable/gradient1">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="124dp"
+            android:layout_height="113dp"
+            android:layout_marginStart="143dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/skrivelogof1"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/greet"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+            android:text="@string/hi_admin"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/adminsignout"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/btncolor"
+        android:text="@string/sign_out"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_marginTop="230dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="305dp"
+            android:layout_height="285dp"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="40dp"
+            app:cardCornerRadius="26dp">
+
+            <TextView
+                android:id="@+id/viewapplications"
+                android:layout_width="227dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="105dp"
+                android:textSize="20sp"
+                android:background="@drawable/btn2"
+                android:gravity="center"
+                android:text="@string/view_applications"
+                android:textColor="@color/black" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cbg"
+
+    tools:context="com.example.views.CalendarActivity">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="130dp"
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calendar"
+        android:gravity="center"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="40dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="266dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="680dp"
+        app:cardCornerRadius="26dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient1">
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="38dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="115dp"
+                android:layout_marginTop="5dp"
+                tools:ignore="ContentDescription"
+                app:srcCompat="@drawable/baseline_calendar_month_24"/>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="38dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="205dp"
+                app:srcCompat="@drawable/baseline_notifications_active_24"
+                tools:ignore="ContentDescription,HardcodedText"/>
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="38dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                tools:ignore="ContentDescription"
+                app:srcCompat="@drawable/baseline_home_24"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
